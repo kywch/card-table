@@ -586,7 +586,7 @@ const CardTable: React.FC = () => {
             <a href={card.repo} target="_blank" rel="noreferrer">[Code]</a>
           )}
         </p>
-        {card.tags.length > 0 && (
+        {card.tags && card.tags.length > 0 && (
           <p>&#x1F3F7;&#xFE0F; {card.tags.join(', ')}</p>
         )}
         <p>&#128073; {card.notes}</p>
