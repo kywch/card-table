@@ -1,5 +1,5 @@
 {
-  "title": "Awesome open-source robotics research (2024/10)",
+  "title": "Awesome open-source robotics projects",
   "texts": [
     {
       "id": 1729106979325,
@@ -33,6 +33,17 @@
       "color": "#000000",
       "fontSize": 24,
       "zIndex": 103
+    },
+    {
+      "id": 1729291354842,
+      "content": "Oh these look cool!!",
+      "x": 83,
+      "y": 305,
+      "isEditing": false,
+      "isSelected": false,
+      "color": "#ce7e0d",
+      "fontSize": 18,
+      "zIndex": 125
     }
   ],
   "cards": [
