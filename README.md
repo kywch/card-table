@@ -1,4 +1,4 @@
-# Card Table: Shuffle, Annotate, and Share Awesome Projects
+# Card Table: for Sharing Awesome Projects
 
 You found 30 awesome projects and want to share them with your friends? Card Table lets you drag these around, organize and annotate, and publish on GitHub.
 
@@ -8,13 +8,15 @@ This app is built with [Claude Artifact Runner](https://github.com/claudio-silva
 The following assumes that you develop locally and deploy to GitHub Pages.
 
 0. Before you begin, ensure you have the following installed on your local dev environment:
-- Node.js (version 14 or later)
-- npm (usually comes with Node.js)
+   ```
+   Node.js (version 14 or later)
+   npm (usually comes with Node.js)
+   ```
 
 1. Fork (or `Use this template`) this repo, and git clone your fork:
    ```
    git clone https://github.com/<YOUR_GITHUB_USERNAME>/card-table.git
-   cd claude-artifact-runner
+   cd card-table
    ```
 
 2. Install dependencies:
