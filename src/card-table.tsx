@@ -149,9 +149,9 @@ const CardTable: React.FC = () => {
   // These are the default table file if not specified in the URL
   // dev mode: use table file to load, use card file when reloading
   // deployed mode: disable reload cards, show the default table, 
-  const TABLE_FILE = tableUrl || 'default_table.json';
+  const TABLE_FILE = tableUrl || './table_data.json';
 
-  let CARDS_FILE = cardsUrl || 'default_cards.yaml';
+  let CARDS_FILE = cardsUrl || './cards.yaml';
   // let CARDS_FILE = cardsUrl || 'src/test_test.yaml';
   if (appState === 'deployed' && !cardsUrl) {
     CARDS_FILE = '';
@@ -780,6 +780,19 @@ const CardTable: React.FC = () => {
             Click a card to see details
           </div>
         )}
+      </div>
+      <div style={{
+        position: 'fixed',
+        bottom: '10px',
+        left: '50%',
+        transform: 'translateX(-50%)',
+        backgroundColor: 'rgba(255, 255, 255, 0.8)',
+        padding: '5px 10px',
+        borderRadius: '5px',
+        boxShadow: '0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)',
+        zIndex: ALWAYS_ON_TOP_Z_INDEX,
+      }}>
+        Dealt with <a href='https://github.com/kywch/card-table' target='_blank'>&#x1F3B4;Card Table</a>
       </div>
       <AlertDialog open={deleteAlertOpen} onOpenChange={setDeleteAlertOpen}>
         <AlertDialogContent>
