@@ -649,6 +649,9 @@ const CardTable: React.FC = () => {
             marginBottom: '10px', 
             marginLeft: '10px',
             cursor: 'pointer',
+            whiteSpace: 'nowrap',
+            maxWidth: 'none',
+            width: 'auto',
           }}
         >
           {title}
@@ -727,6 +730,9 @@ const CardTable: React.FC = () => {
               cursor: text.isSelected ? 'move' : 'pointer',
               userSelect: 'none',
               zIndex: text.zIndex,
+              whiteSpace: 'nowrap',
+              maxWidth: 'none',
+              width: 'auto',
             }}
           >
             {text.isEditing ? (
