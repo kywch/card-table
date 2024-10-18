@@ -764,7 +764,7 @@ const CardTable: React.FC = () => {
           </div>
         ))}
       </div>
-      <div style={{ position: 'fixed', top: 70, right: 10, width: 300, backgroundColor: 'white', padding: 10, border: '1px solid #ccc' }}>
+      <div style={{ position: 'fixed', bottom: 50, right: 10, width: 300, backgroundColor: 'white', padding: 10, border: '1px solid #ccc' }}>
         {selectedCard ? (
           <div>
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 10 }}>
@@ -793,8 +793,7 @@ const CardTable: React.FC = () => {
       <div style={{
         position: 'fixed',
         bottom: '10px',
-        left: '50%',
-        transform: 'translateX(-50%)',
+        right: '10px',
         backgroundColor: 'rgba(255, 255, 255, 0.8)',
         padding: '5px 10px',
         borderRadius: '5px',
