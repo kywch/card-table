@@ -107,7 +107,7 @@ const TextControlPanel: React.FC<{
         backgroundColor: 'white', 
         border: '1px solid #ccc', 
         padding: '5px',
-        width: '150px',
+        width: '220px',
         zIndex: ALWAYS_ON_TOP_Z_INDEX,
     }}>
       <div style={{ display: 'flex', gap: '10px', alignItems: 'center' }}>
