@@ -33,9 +33,11 @@ The following assumes that you develop locally and deploy to GitHub Pages.
 
 5. Add your cards to the `public/cards.yaml` file, and press `Reload cards`. Organize your cards as you see fit.
 
-6. To capture the current table, press the `Save table` to get the table file and replace `public/table_data.json`.
+6. You can change title, add text, and delete cards. But, these changes are <b>NOT saved and will be lost when you refresh the page</b>.
 
-7. Once you're satified, deploy the app to GitHub Pages:
+7. To capture the current table, press the `Save table` to get the table file and replace `public/table_data.json`.
+
+8. Once you're satified, deploy the app to GitHub Pages:
    ```
    npm run deploy
    ```
